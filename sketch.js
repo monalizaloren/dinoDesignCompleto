@@ -29,7 +29,9 @@ function preload(){
   cloudImage = loadImage("assets/cloud.png");
   
   obstacle1 = loadImage("assets/obstacle1.png");
-  
+  obstacle2 = loadImage("assets/obstacle2.png");
+  obstacle3 = loadImage("assets/obstacle3.png");
+  obstacle4 = loadImage("assets/obstacle4.png");
   
   gameOverImg = loadImage("assets/gameOver.png");
   restartImg = loadImage("assets/restart.png");
@@ -72,6 +74,7 @@ function setup() {
   restart.visible = false;
   
  
+  // invisibleGround.visible =false
 
   cloudsGroup = new Group();
   obstaclesGroup = new Group();
